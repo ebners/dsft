@@ -1,0 +1,41 @@
+-aa-eval Exhaustive Alias Analysis Precision Evaluator
+-basic-aa Basic Alias Analysis (stateless AA impl)
+-basiccg Basic CallGraph Construction
+-count-aa Count Alias Analysis Query Responses
+-da Dependence Analysis
+-debug-aa AA use debugger
+-domfrontier Dominance Frontier Construction
+-domtree Dominator Tree Construction
+-dot-callgraph Print Call Graph to “dot” file
+-dot-cfg Print CFG of function to “dot” file
+-dot-cfg-only Print CFG of function to “dot” file (with no function bodies)
+-dot-dom Print dominance tree of function to “dot” file
+-dot-dom-only Print dominance tree of function to “dot” file (with no function bodies)
+-dot-postdom Print postdominance tree of function to “dot” file
+-dot-postdom-only Print postdominance tree of function to “dot” file (with no function bodies)
+-globalsmodref-aa Simple mod/ref analysis for globals
+-instcount Counts the various types of Instructions
+-intervals Interval Partition Construction
+-iv-users Induction Variable Users
+-lazy-value-info Lazy Value Information Analysis
+-libcall-aa LibCall Alias Analysis
+-lint Statically lint-checks LLVM IR
+-loops Natural Loop Information
+-memdep Memory Dependence Analysis
+-module-debuginfo Decodes module-level debug info
+-postdomfrontier Post-Dominance Frontier Construction
+-postdomtree Post-Dominator Tree Construction
+-print-alias-sets Alias Set Printer
+-print-callgraph Print a call graph
+-print-callgraph-sccs Print SCCs of the Call Graph
+-print-cfg-sccs Print SCCs of each function CFG
+-print-dom-info Dominator Info Printer
+-print-externalfnconstants Print external fn callsites passed constants
+-print-function Print function to stderr
+-print-module Print module to stderr
+-print-used-types Find Used Types
+-regions Detect single entry single exit regions
+-scalar-evolution Scalar Evolution Analysis
+-scev-aa ScalarEvolution-based Alias Analysis
+-stack-safety Stack Safety Analysis
+-targetdata Target Data Layout

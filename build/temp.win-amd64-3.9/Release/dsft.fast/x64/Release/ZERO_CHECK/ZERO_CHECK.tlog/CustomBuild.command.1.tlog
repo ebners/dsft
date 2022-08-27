@@ -1,0 +1,10 @@
+^C:\USERS\SIMON\DOCUMENTS\ETH\BACHELOR THESIS\SETFTS_2\BUILD\TEMP.WIN-AMD64-3.9\RELEASE\DSFT.FAST\CMAKEFILES\DC13F7C827DED7DE36EC08F0413F9C78\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2" "-BC:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2/build/temp.win-amd64-3.9/Release/dsft.fast" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2/build/temp.win-amd64-3.9/Release/dsft.fast/dsft.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

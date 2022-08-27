@@ -1,0 +1,252 @@
+  -faggressive-loop-optimizations Aggressively optimize loops using language constraints.
+  -falign-functions           Align the start of functions.
+  -falign-functions=          This option lacks documentation.
+  -falign-jumps               Align labels which are only reached by jumping.
+  -falign-jumps=              This option lacks documentation.
+  -falign-labels              Align all labels.
+  -falign-labels=             This option lacks documentation.
+  -falign-loops               Align the start of loops.
+  -falign-loops=              This option lacks documentation.
+  -fallocation-dce            Tell DCE to remove unused C++ allocations.
+  -fallow-store-data-races    Allow the compiler to introduce new data races on stores.
+  -fassociative-math          Allow optimization for floating-point arithmetic which may change the result of the operation due to rounding.
+  -fassume-phsa               Assume we are finalizing for phsa and its libhsail-rt.  Enables additional phsa-specific optimizations (default).
+  -fasynchronous-unwind-tables Generate unwind tables that are exact at each instruction boundary.
+  -fauto-inc-dec              Generate auto-inc/dec instructions.
+  -fbit-tests                 Use bit tests for sufficiently large switchstatements.
+  -fbranch-count-reg          Replace add, compare, branch with branch on countregister.
+  -fbranch-probabilities      Use profiling information for branchprobabilities.
+  -fcaller-saves              Save registers around function calls.
+  -fcode-hoisting             Enable code hoisting.
+  -fcombine-stack-adjustments Looks for opportunities to reduce stackadjustments and stack references.
+  -fcompare-elim              Perform comparison elimination after registerallocation has finished.
+  -fconserve-stack            Do not perform optimizations increasingnoticeably stack usage.
+  -fcprop-registers           Perform a register copy-propagation optimizationpass.
+  -fcrossjumping              Perform cross-jumping optimization.
+  -fcse-follow-jumps          When running CSE, follow jumps to their targets.
+  -fcx-fortran-rules          Complex multiplication and division followFortran rules.
+  -fcx-limited-range          Omit range reduction step when performing complexdivision.
+  -fdce                       Use the RTL dead code elimination pass.
+  -fdefer-pop                 Defer popping functions args from stack untillater.
+  -fdelayed-branch            Attempt to fill delay slots of branchinstructions.
+  -fdelete-dead-exceptions    Delete dead instructions that may throwexceptions.
+  -fdelete-null-pointer-checks Delete useless null pointer checks.
+  -fdevirtualize              Try to convert virtual calls to direct ones.
+  -fdevirtualize-speculatively Perform speculative devirtualization.
+  -fdse                       Use the RTL dead store elimination pass.
+  -fearly-inlining            Perform early inlining.
+  -fexceptions                Enable exception handling.
+  -fexcess-precision=[fast|standard] Specify handling of excess floating-pointprecision.
+  -fexpensive-optimizations   Perform a number of minor, expensiveoptimizations.
+  -ffast-math                 This option lacks documentation.
+  -ffinite-loops              Assume that loops with an exit will terminate andnot loop indefinitely.
+  -ffinite-math-only          Assume no NaNs or infinities are generated.
+  -ffloat-store               Don't allocate floats and doubles in extended-precision registers.
+  -fforward-propagate         Perform a forward propagation pass on RTL.
+  -ffp-contract=[off|on|fast] Perform floating-point expression contraction.
+  -ffp-int-builtin-inexact    Allow built-in functions ceil, floor, round,trunc to raise "inexact" exceptions.
+  -ffunction-cse              Allow function addresses to be held in registers.
+  -fgcse                      Perform global common subexpression elimination.
+  -fgcse-after-reload         Perform global common subexpression eliminationafter register allocation has finished.
+  -fgcse-las                  Perform redundant load after store elimination inglobal common subexpression elimination.
+  -fgcse-lm                   Perform enhanced load motion during global commonsubexpression elimination.
+  -fgcse-sm                   Perform store motion after global commonsubexpression elimination.
+  -fgraphite                  Enable in and out of Graphite representation.
+  -fgraphite-identity         Enable Graphite Identity transformation.
+  -fguess-branch-probability  Enable guessing of branch probabilities.
+  -fhandle-exceptions         Same as -fexceptions.  Uses of this option arediagnosed.
+  -fhoist-adjacent-loads      Enable hoisting adjacent loads to encouragegenerating conditional move instructions.
+  -fif-conversion             Perform conversion of conditional jumps tobranchless equivalents.
+  -fif-conversion2            Perform conversion of conditional jumps toconditional execution.
+  -findirect-inlining         Perform indirect inlining.
+  -finline                    Enable inlining of function declared "inline",disabling disables all inlining.
+  -finline-atomics            Inline __atomic operations when a lock freeinstruction sequence is available.
+  -finline-functions          Integrate functions not declared "inline" intotheir callers when profitable.
+  -finline-functions-called-once Integrate functions only required by theirsingle caller.
+  -finline-small-functions    Integrate functions into their callers when codesize is known not to grow.
+  -fipa-bit-cp                Perform interprocedural bitwise constantpropagation.
+  -fipa-cp                    Perform interprocedural constant propagation.
+  -fipa-cp-clone              Perform cloning to make Interprocedural constantpropagation stronger.
+  -fipa-icf                   Perform Identical Code Folding for functions andread-only variables.
+  -fipa-icf-functions         Perform Identical Code Folding for functions.
+  -fipa-icf-variables         Perform Identical Code Folding for variables.
+  -fipa-modref                Perform interprocedural modref analysis.
+  -fipa-profile               Perform interprocedural profile propagation.
+  -fipa-pta                   Perform interprocedural points-to analysis.
+  -fipa-pure-const            Discover pure and const functions.
+  -fipa-ra                    Use caller save register across calls if possible.
+  -fipa-reference             Discover read-only and non addressable staticvariables.
+  -fipa-reference-addressable Discover read-only, write-only and non-addressable static variables.
+  -fipa-sra                   Perform interprocedural reduction of aggregates.
+  -fipa-stack-alignment       Reduce stack alignment on call sites if possible.
+  -fipa-vrp                   Perform IPA Value Range Propagation.
+  -fira-algorithm=[CB|priority] Set the used IRA algorithm.
+  -fira-hoist-pressure        Use IRA based register pressure calculation inRTL hoist optimizations.
+  -fira-loop-pressure         Use IRA based register pressure calculation inRTL loop optimizations.
+  -fira-region=[one|all|mixed] Set regions for IRA.
+  -fira-share-save-slots      Share slots for saving different hard registers.
+  -fira-share-spill-slots     Share stack slots for spilled pseudo-registers.
+  -fisolate-erroneous-paths-attribute Detect paths that trigger erroneous orundefined behavior due to a null value being usedin a way forbidden by a returns_nonnull ornonnull attribute.  Isolate those paths from themain control flow and turn the statement witherroneous or undefined behavior into a trap.
+  -fisolate-erroneous-paths-dereference Detect paths that trigger erroneous orundefined behavior due to dereferencing a nullpointer.  Isolate those paths from the maincontrol flow and turn the statement witherroneous or undefined behavior into a trap.
+  -fivopts                    Optimize induction variables on trees.
+  -fjump-tables               Use jump tables for sufficiently large switchstatements.
+  -fkeep-gc-roots-live        This option lacks documentation.
+  -flifetime-dse              Tell DSE that the storage for a C++ object isdead when the constructor starts and when thedestructor finishes.
+  -flifetime-dse=<0,2>        This option lacks documentation.
+  -flimit-function-alignment  This option lacks documentation.
+  -flive-patching             Same as -flive-patching=inline-clone.
+  -flive-patching=[inline-only-static|inline-clone] Control IPA optimizationsto provide a safe compilation for live-patching. At the same time, provides multiple-level controlon the enabled IPA optimizations.
+  -flive-range-shrinkage      Relief of register pressure through live rangeshrinkage.
+  -floop-interchange          Enable loop interchange on trees.
+  -floop-nest-optimize        Enable the loop nest optimizer.
+  -floop-parallelize-all      Mark all loops as parallel.
+  -floop-unroll-and-jam       Perform unroll-and-jam on loops.
+  -flra-remat                 Do CFG-sensitive rematerialization in LRA.
+  -fmath-errno                Set errno after built-in math functions.
+  -fmodulo-sched              Perform SMS based modulo scheduling before thefirst scheduling pass.
+  -fmodulo-sched-allow-regmoves Perform SMS based modulo scheduling withregister moves allowed.
+  -fmove-loop-invariants      Move loop invariant computations out of loops.
+  -fnon-call-exceptions       Support synchronous non-call exceptions.
+  -fnothrow-opt               Treat a throw() exception specification asnoexcept to improve code size.
+  -fomit-frame-pointer        When possible do not generate stack frames.
+  -fopt-info                  Enable all optimization info dumps on stderr.
+  -foptimize-sibling-calls    Optimize sibling and tail recursive calls.
+  -foptimize-strlen           Enable string length optimizations on trees.
+  -fpack-struct               Pack structure members together without holes.
+  -fpack-struct=<number>      Set initial maximum structure member alignment.
+  -fpartial-inlining          Perform partial inlining.
+  -fpatchable-function-entry= Insert NOP instructions at each function entry.
+  -fpeel-loops                Perform loop peeling.
+  -fpeephole                  Enable machine specific peephole optimizations.
+  -fpeephole2                 Enable an RTL peephole pass before sched2.
+  -fplt                       Use PLT for PIC calls (-fno-plt: load the addressfrom GOT at call site).
+  -fpredictive-commoning      Run predictive commoning optimization.
+  -fprefetch-loop-arrays      Generate prefetch instructions, if available, forarrays in loops.
+  -fprintf-return-value       Treat known sprintf return values as constants.
+  -fprofile-partial-training  Do not assume that functions never executedduring the train run are cold.
+  -fprofile-reorder-functions Enable function reordering that improves codeplacement.
+  -freciprocal-math           Same as -fassociative-math for expressions whichinclude division.
+  -free                       Turn on Redundant Extensions Elimination pass.
+  -freg-struct-return         Return small aggregates in registers.
+  -frename-registers          Perform a register renaming optimization pass.
+  -freorder-blocks            Reorder basic blocks to improve code placement.
+  -freorder-blocks-algorithm=[simple|stc] Set the used basic block reorderingalgorithm.
+  -freorder-blocks-and-partition Reorder basic blocks and partition into hotand cold sections.
+  -freorder-functions         Reorder functions to improve code placement.
+  -frerun-cse-after-loop      Add a common subexpression elimination pass afterloop optimizations.
+  -freschedule-modulo-scheduled-loops Enable/Disable the traditional schedulingin loops that already passed modulo scheduling.
+  -frounding-math             Disable optimizations that assume default FProunding behavior.
+  -frtti                      Generate run time type descriptor information.
+  -fsave-optimization-record  Write a SRCFILE.opt-record.json file detailingwhat optimizations were performed.
+  -fsched-critical-path-heuristic Enable the critical path heuristic in thescheduler.
+  -fsched-dep-count-heuristic Enable the dependent count heuristic in thescheduler.
+  -fsched-group-heuristic     Enable the group heuristic in the scheduler.
+  -fsched-interblock          Enable scheduling across basic blocks.
+  -fsched-last-insn-heuristic Enable the last instruction heuristic in thescheduler.
+  -fsched-pressure            Enable register pressure sensitive insnscheduling.
+  -fsched-rank-heuristic      Enable the rank heuristic in the scheduler.
+  -fsched-spec                Allow speculative motion of non-loads.
+  -fsched-spec-insn-heuristic Enable the speculative instruction heuristic inthe scheduler.
+  -fsched-spec-load           Allow speculative motion of some loads.
+  -fsched-spec-load-dangerous Allow speculative motion of more loads.
+  -fsched-stalled-insns       Allow premature scheduling of queued insns.
+  -fsched-stalled-insns-dep   Set dependence distance checking in prematurescheduling of queued insns.
+  -fsched-stalled-insns-dep=<number> Set dependence distance checking inpremature scheduling of queued insns.
+  -fsched-stalled-insns=<number> Set number of queued insns that can beprematurely scheduled.
+  -fsched2-use-superblocks    If scheduling post reload, do superblockscheduling.
+  -fschedule-fusion           Perform a target dependent instruction fusionoptimization pass.
+  -fschedule-insns            Reschedule instructions before registerallocation.
+  -fschedule-insns2           Reschedule instructions after register allocation.
+  -fsection-anchors           Access data in the same section from sharedanchor points.
+  -fsel-sched-pipelining      Perform software pipelining of inner loops duringselective scheduling.
+  -fsel-sched-pipelining-outer-loops Perform software pipelining of outer loopsduring selective scheduling.
+  -fsel-sched-reschedule-pipelined Reschedule pipelined regions withoutpipelining.
+  -fselective-scheduling      Schedule instructions using selective schedulingalgorithm.
+  -fselective-scheduling2     Run selective scheduling after reload.
+  -fshort-enums               Use the narrowest integer type possible forenumeration types.
+  -fshort-wchar               Force the underlying type for "wchar_t" to be"unsigned short".
+  -fshrink-wrap               Emit function prologues only before parts of thefunction that need it, rather than at the top ofthe function.
+  -fshrink-wrap-separate      Shrink-wrap parts of the prologue and epilogueseparately.
+  -fsignaling-nans            Disable optimizations observable by IEEEsignaling NaNs.
+  -fsigned-zeros              Disable floating point optimizations that ignorethe IEEE signedness of zero.
+  -fsimd-cost-model=[unlimited|dynamic|cheap|very-cheap] Specifies thevectorization cost model for code marked with asimd directive.
+  -fsingle-precision-constant Convert floating point constants to singleprecision constants.
+  -fsplit-ivs-in-unroller     Split lifetimes of induction variables when loopsare unrolled.
+  -fsplit-loops               Perform loop splitting.
+  -fsplit-paths               Split paths leading to loop backedges.
+  -fsplit-wide-types          Split wide types into independent registers.
+  -fsplit-wide-types-early    Split wide types into independent registersearlier.
+  -fssa-backprop              Enable backward propagation of use properties atthe SSA level.
+  -fssa-phiopt                Optimize conditional patterns using SSA PHI nodes.
+  -fstack-check=[no|generic|specific] Insert stack checking code into theprogram.
+  -fstack-clash-protection    Insert code to probe each page of stack space asit is allocated to protect from stack-clash styleattacks.
+  -fstack-protector           Use propolice as a stack protection method.
+  -fstack-protector-all       Use a stack protection method for every function.
+  -fstack-protector-explicit  Use stack protection method only for functionswith the stack_protect attribute.
+  -fstack-protector-strong    Use a smart stack protection method for certainfunctions.
+  -fstack-reuse=[all|named_vars|none] Set stack reuse level for local variables.
+  -fstdarg-opt                Optimize amount of stdarg registers saved tostack at start of function.
+  -fstore-merging             Merge adjacent stores.
+  -fstrict-aliasing           Assume strict aliasing rules apply.
+  -fstrict-enums              Assume that values of enumeration type are alwayswithin the minimum range of that type.
+  -fstrict-volatile-bitfields Force bitfield accesses to match their type width.
+  -fthread-jumps              Perform jump threading optimizations.
+  -fno-threadsafe-statics     Do not generate thread-safe code for initializinglocal statics.
+  -ftoplevel-reorder          Reorder top level functions, variables, and asms.
+  -ftracer                    Perform superblock formation via tail duplication.
+  -ftrapping-math             Assume floating-point operations can trap.
+  -ftrapv                     Trap for signed overflow in addition, subtractionand multiplication.
+  -ftree-bit-ccp              Enable SSA-BIT-CCP optimization on trees.
+  -ftree-builtin-call-dce     Enable conditional dead code elimination forbuiltin calls.
+  -ftree-ccp                  Enable SSA-CCP optimization on trees.
+  -ftree-ch                   Enable loop header copying on trees.
+  -ftree-coalesce-vars        Enable SSA coalescing of user variables.
+  -ftree-copy-prop            Enable copy propagation on trees.
+  -ftree-cselim               Transform condition stores into unconditionalones.
+  -ftree-dce                  Enable SSA dead code elimination optimization ontrees.
+  -ftree-dominator-opts       Enable dominator optimizations.
+  -ftree-dse                  Enable dead store elimination.
+  -ftree-forwprop             Enable forward propagation on trees.
+  -ftree-fre                  Enable Full Redundancy Elimination (FRE) on trees.
+  -ftree-loop-distribute-patterns Enable loop distribution for patternstransformed into a library call.
+  -ftree-loop-distribution    Enable loop distribution on trees.
+  -ftree-loop-if-convert      Convert conditional jumps in innermost loops tobranchless equivalents.
+  -ftree-loop-im              Enable loop invariant motion on trees.
+  -ftree-loop-ivcanon         Create canonical induction variables in loops.
+  -ftree-loop-optimize        Enable loop optimizations on tree level.
+  -ftree-loop-vectorize       Enable loop vectorization on trees.
+  -ftree-lrs                  Perform live range splitting during the SSA->normal pass.
+  -ftree-parallelize-loops=<number> Enable automatic parallelization of loops.
+  -ftree-partial-pre          In SSA-PRE optimization on trees, enable partial-partial redundancy elimination.
+  -ftree-phiprop              Enable hoisting loads from conditional pointers.
+  -ftree-pre                  Enable SSA-PRE optimization on trees.
+  -ftree-pta                  Perform function-local points-to analysis ontrees.
+  -ftree-reassoc              Enable reassociation on tree level.
+  -ftree-scev-cprop           Enable copy propagation of scalar-evolutioninformation.
+  -ftree-sink                 Enable SSA code sinking on trees.
+  -ftree-slp-vectorize        Enable basic block vectorization (SLP) on trees.
+  -ftree-slsr                 Perform straight-line strength reduction.
+  -ftree-sra                  Perform scalar replacement of aggregates.
+  -ftree-switch-conversion    Perform conversions of switch initializations.
+  -ftree-tail-merge           Enable tail merging on trees.
+  -ftree-ter                  Replace temporary expressions in the SSA->normalpass.
+  -ftree-vectorize            Enable vectorization on trees.
+  -ftree-vrp                  Perform Value Range Propagation on trees.
+  -funconstrained-commons     Assume common declarations may be overridden withones with a larger trailing array.
+  -funroll-all-loops          Perform loop unrolling for all loops.
+  -funroll-completely-grow-size This option lacks documentation.
+  -funroll-loops              Perform loop unrolling when iteration count isknown.
+  -funsafe-math-optimizations Allow math optimizations that may violate IEEE orISO standards.
+  -funswitch-loops            Perform loop unswitching.
+  -funwind-tables             Just generate unwind tables for exceptionhandling.
+  -fvar-tracking              Perform variable tracking.
+  -fvar-tracking-assignments  Perform variable tracking by annotatingassignments.
+  -fvar-tracking-assignments-toggle Toggle -fvar-tracking-assignments.
+  -fvar-tracking-uninit       Perform variable tracking and also tag variablesthat are uninitialized.
+  -fvariable-expansion-in-unroller Apply variable expansion when loops areunrolled.
+  -fvect-cost-model=[unlimited|dynamic|cheap|very-cheap] Specifies the costmodel for vectorization.
+  -fversion-loops-for-strides Version loops based on whether indices have astride of one.
+  -fvpt                       Use expression value profiles in optimizations.
+  -fweb                       Construct webs and split unrelated uses of singlevariable.
+  -fwrapv                     Assume signed arithmetic overflow wraps around.
+  -fwrapv-pointer             Assume pointer overflow wraps around.

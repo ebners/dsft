@@ -1,0 +1,7 @@
+include README.md LICENSE pybind11/LICENSE
+recursive-include dsft/data *.csv
+recursive-include dsft/data *.txt
+graft pybind11/include
+graft pybind11/tools
+graft src
+global-include CMakeLists.txt *.cmake

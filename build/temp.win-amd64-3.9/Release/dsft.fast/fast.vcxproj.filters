@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\simon\Documents\ETH\Bachelor Thesis\setFTs_2\src\fast\fast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\simon\Documents\ETH\Bachelor Thesis\setFTs_2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{72B9B72D-AFB9-32BF-BC40-41B927890053}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

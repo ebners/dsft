@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\simon\Documents\ETH\Bachelor Thesis\setFTs_2\build\temp.win-amd64-3.9\Release\dsft.fast\CMakeFiles\dc13f7c827ded7de36ec08f0413f9c78\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9291CFC3-8716-3C88-9BA9-196DE2467021}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

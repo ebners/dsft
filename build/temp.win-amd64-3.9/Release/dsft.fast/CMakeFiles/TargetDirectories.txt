@@ -1,0 +1,4 @@
+C:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2/build/temp.win-amd64-3.9/Release/dsft.fast/CMakeFiles/fast.dir
+C:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2/build/temp.win-amd64-3.9/Release/dsft.fast/CMakeFiles/ALL_BUILD.dir
+C:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2/build/temp.win-amd64-3.9/Release/dsft.fast/CMakeFiles/ZERO_CHECK.dir
+C:/Users/simon/Documents/ETH/Bachelor Thesis/setFTs_2/build/temp.win-amd64-3.9/Release/dsft.fast/pybind11/CMakeFiles/ALL_BUILD.dir
